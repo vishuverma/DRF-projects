@@ -8,6 +8,7 @@ data = {
     'city': 'Noida'
 }
 
+
 json_data = json.dumps(data)
 
 r = requests.post(url=URL, data=json_data)
